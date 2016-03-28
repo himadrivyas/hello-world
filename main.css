@@ -1,0 +1,162 @@
+/* comments for Css */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "code_pro_demoregular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Code_Pro_Demo-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Code_Pro_Demo-webfont.woff2") format("woff2"), url("/fonts/Code_Pro_Demo-webfont.woff") format("woff"), url("/fonts/Code_Pro_Demo-webfont.ttf") format("truetype"); }
+.mainContainer {
+  background-color: #0c4d5d;
+  width: 100%;
+  height: auto; }
+
+.hide {
+  display: none; }
+
+.header {
+  background-color: #fefefe;
+  width: 100%; }
+
+body {
+  font-family: "Code Pro Demo", Sans-Serif; }
+
+.links, .inline-list {
+  color: #0c4d5d;
+  margin-top: 5%;
+  letter-spacing: 1.5px; }
+  .links ul li, .inline-list ul li {
+    margin-right: 10px; }
+  .links ul li a, .inline-list ul li a {
+    font-family: "Code Pro Demo", Sans-Serif;
+    color: #0c4d5d;
+    font-weight: 300;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    letter-spacing: 1.5px; }
+  .links a:hover, .inline-list a:hover {
+    color: #0c4d5d;
+    letter-spacing: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .links .line, .inline-list .line {
+    position: absolute;
+    margin-left: 7px;
+    color: #0c4d5d; }
+
+.social {
+  margin-top: 5%;
+  float: right; }
+  .social .inline-list {
+    margin-right: 5px; }
+  .social ul li {
+    margin-right: 5px; }
+
+.nav {
+  margin-left: 10%; }
+
+#logoM {
+  width: 50%; }
+
+.socialM {
+  margin-left: 22%;
+  margin-top: 10%; }
+
+.techImg {
+  background: url("../images/work-area.jpg") no-repeat;
+  background-size: cover;
+  height: 460px;
+  width: 100%; }
+
+.intro {
+  background: #fefefe;
+  opacity: 0.5;
+  float: right;
+  padding: 10px;
+  margin-top: 20%; }
+  .intro h4 {
+    color: #0c4d5d;
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    z-index: 1001; }
+  .intro p {
+    font-family: "Pacifico", cursive;
+    color: #f1ac6e;
+    text-align: right;
+    z-index: 1001; }
+
+.aboutBack {
+  background: #ceeaeb;
+  width: 100%;
+  height: 150px; }
+  .aboutBack h1 {
+    font-family: "Code Pro Demo", Sans-Serif;
+    color: #0c4d5d;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 80%; }
+
+.aboutMe {
+  background: white;
+  padding-bottom: 30px; }
+  .aboutMe .myImage {
+    background: url("../images/mine-edited.jpg") no-repeat;
+    background-size: contain;
+    height: 480px;
+    margin-top: 20%;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    transition: all 2s ease; }
+  .aboutMe .myImage:hover {
+    background: url("../images/mine.jpg") no-repeat;
+    background-size: contain;
+    height: 480px;
+    margin-top: 20%; }
+  .aboutMe .con {
+    margin-top: 10%; }
+    .aboutMe .con h6 {
+      font-family: "Code Pro Demo", Sans-Serif;
+      text-align: left;
+      color: #0c4d5d;
+      letter-spacing: 1px; }
+    .aboutMe .con p {
+      font-family: "Hind", Arial;
+      text-align: left;
+      color: #333; }
+
+.workBack {
+  background: #ceeaeb;
+  margin-top: -8px; }
+  .workBack h1 {
+    font-family: "Code Pro Demo", Sans-Serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #0c4d5d;
+    position: relative;
+    top: -30px; }
+  .workBack .christina {
+    background: url("../images/christina.jpg") no-repeat;
+    background-size: contain;
+    height: 253px; }
+  .workBack .gift {
+    background: url("../images/gift.jpg") no-repeat;
+    background-size: contain;
+    height: 253px; }
+  .workBack .ajax {
+    background: url("../images/ajax_blueray.jpg") no-repeat;
+    background-size: contain;
+    height: 253px; }
+  .workBack .music {
+    background: url("../images/music-app.jpg") no-repeat;
+    background-size: contain;
+    height: 253px; }
+
+/*# sourceMappingURL=main.css.map */
